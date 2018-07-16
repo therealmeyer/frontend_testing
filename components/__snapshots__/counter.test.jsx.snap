@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter matches the initial snapshot 1`] = `
+<div>
+  <p>
+    count: 
+    0
+  </p>
+  <button
+    className="add1"
+    onClick={[Function]}
+  />
+</div>
+`;
