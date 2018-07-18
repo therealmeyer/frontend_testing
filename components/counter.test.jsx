@@ -25,5 +25,11 @@ describe('Counter', () => {
   it('matches the initial snapshot', () => {
     const component = renderer.create(<Counter />)
     expect(component.toJSON()).toMatchSnapshot();
+
+    component.getInstance().add1();
+    component.getInstance().add1();
+
+    expect(component.toJSON()).toMatchSnapshot();
+
   })
 })
